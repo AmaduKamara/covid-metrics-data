@@ -5,7 +5,14 @@ const Footer = () => (
     <h1 className="font-thin text-gray-100 tracking-wide">
       &copy; Classic 2022. All rights reserved. Developed by
       {' '}
-      <a className="text-white font-bold" href="https://github.com/AmaduKamara">Amadu Kamara.</a>
+      <a
+        className="text-white font-bold"
+        href="https://github.com/AmaduKamara"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Amadu Kamara.
+      </a>
       {' '}
     </h1>
   </div>
