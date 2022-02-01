@@ -9,14 +9,13 @@ const initialState = {
 
 // Actions
 export const fetchCovidData = (payload) => ({
-  type: 'FETCH_COVID_DATA',
+  type: FETCH_COVID_DATA,
   payload,
 });
 
 export const fetchCovid = () => async (dispatch) => {
   const covidData = await axios.get('https://api.covid19api.com/summary');
   const data = await covidData.data;
-  // console.log(data.Countries.length);
   dispatch(fetchCovidData(data.Countries));
 };
 

@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchCovid } from '../store/covid/covid';
+import Country from '../components/Country';
 
 const Home = () => {
   const covidData = useSelector((state) => state.covidReducer.covidData);
@@ -10,10 +11,15 @@ const Home = () => {
     dispatch(fetchCovid());
   }, []);
 
-  console.log(covidData.length);
-
   return (
     <div>
+      {covidData.map((country) => (
+        <Country
+          key={country.ID}
+          country={country.Country}
+          TotalConfirmed={country.TotalConfirmed}
+        />
+      ))}
       <h1>Home Page</h1>
     </div>
   );
