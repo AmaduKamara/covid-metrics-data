@@ -13,13 +13,15 @@ const Home = () => {
 
   return (
     <div>
-      {covidData.map((country) => (
-        <Country
-          key={country.ID}
-          country={country.Country}
-          TotalConfirmed={country.TotalConfirmed}
-        />
-      ))}
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+        {covidData.map((country) => (
+          <Country
+            key={country.ID}
+            country={country.Country}
+            TotalConfirmed={country.TotalConfirmed}
+          />
+        ))}
+      </div>
       <h1>Home Page</h1>
     </div>
   );
