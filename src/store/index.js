@@ -1,7 +1,7 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import axios from 'axios';
 import thunk from 'redux-thunk';
-import { covidReducer } from './covid/covid';
+import covidReducer, { fetchCovidResults } from './covid/covid';
 
 const reducer = combineReducers({
   covidReducer,
@@ -11,8 +11,8 @@ const store = createStore(reducer, applyMiddleware(thunk));
 
 const fetchCovidData = async () => {
   const covidData = await axios.get('https://api.covid19api.com/summary');
-  console.log(covidData);
-  // const data = await covidData.json();
+  const data = await covidData.data;
+  store.dispatch(fetchCovidResults(data));
 };
 
 fetchCovidData();
