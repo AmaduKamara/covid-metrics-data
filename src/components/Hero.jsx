@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header = () => (
-  <div className="h-72 flex items-center justify-center bg-main">
+  <div className="h-72 flex items-center justify-center hero">
     <div className="w-1/3">
       <h1 className="text-7xl text-white mb-4">COVOIID-19 Metrics</h1>
       <p className="text-lg font-thin text-white">
