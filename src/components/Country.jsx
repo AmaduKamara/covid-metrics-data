@@ -2,7 +2,7 @@ import { PropTypes } from 'prop-types';
 import { BsArrowRightCircle } from 'react-icons/bs';
 
 const Country = ({ country, TotalConfirmed }) => (
-  <div className="border border-pink-600 p-5">
+  <div className="border border-pink-300 p-5 country">
     <div className="flex justify-end items-end">
       <BsArrowRightCircle />
     </div>
