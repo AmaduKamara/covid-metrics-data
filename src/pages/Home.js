@@ -30,7 +30,7 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
         {covidData.map((country) => (
           <Country
             key={country.ID}

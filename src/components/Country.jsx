@@ -7,14 +7,14 @@ const Country = ({ country, TotalConfirmed }) => {
   const navigate = useNavigate();
 
   return (
-    <div className="border border-pink-400 p-5 country">
+    <div className="border border-pink-400 py-5 country pr-8">
       <div className="flex justify-end items-end">
         <BsArrowRightCircle
           onClick={() => navigate('/details', { state: country })}
           className="text-white text-2xl cursor-pointer"
         />
       </div>
-      <div className="flex flex-col justify-end items-end mt-5">
+      <div className="flex flex-col justify-end items-end md:mt-16">
         <h1 className="text-xs sm:text-lg md:text-xl lg:text-2xln font-semibold uppercase text-white">
           {country}
         </h1>
