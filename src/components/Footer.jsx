@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <div className="py-5 flex justify-center items-center hero bottom-0 w-full sticky">
+  <div className="py-5 flex justify-center items-center hero fixed bottom-0 w-full">
     <h1 className="font-thin text-gray-100 tracking-wide">
       &copy; Classic 2022. All rights reserved. Developed by
       {' '}
