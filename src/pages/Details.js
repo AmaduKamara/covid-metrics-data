@@ -1,8 +1,14 @@
-import React from 'react';
+import { useLocation } from 'react-router-dom';
 
-const Details = () => (
-  <div>
-    <h1>Details Page</h1>
-  </div>
-);
+const Details = () => {
+  const { state } = useLocation();
+
+  return (
+    <div className="my-16">
+      <h1 className="text-2xl">
+        {state}
+      </h1>
+    </div>
+  );
+};
 export default Details;

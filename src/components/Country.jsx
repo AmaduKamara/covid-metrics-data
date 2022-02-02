@@ -1,5 +1,5 @@
 import { PropTypes } from 'prop-types';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import { BsArrowRightCircle } from 'react-icons/bs';
 
@@ -10,7 +10,7 @@ const Country = ({ country, TotalConfirmed }) => {
     <div className="border border-pink-400 p-5 country">
       <div className="flex justify-end items-end">
         <BsArrowRightCircle
-          onClick={() => navigate('/details')}
+          onClick={() => navigate('/details', { state: country })}
           className="text-white text-2xl cursor-pointer"
         />
       </div>
@@ -28,7 +28,7 @@ const Country = ({ country, TotalConfirmed }) => {
 
 Country.propTypes = {
   country: PropTypes.string.isRequired,
-  TotalConfirmed: PropTypes.string.isRequired,
+  TotalConfirmed: PropTypes.number.isRequired,
 };
 
 export default Country;
