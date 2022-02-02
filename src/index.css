@@ -20,6 +20,13 @@ body {
   background-position: center;
 }
 
+.footer-hero {
+  background: url('./images/Covid\ Banner\ Footer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .country {
   background: url('./images/Country\ background.png');
   background-repeat: no-repeat;
