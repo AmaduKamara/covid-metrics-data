@@ -46,8 +46,7 @@ const Home = () => {
         {filtered.map((country) => (
           <Country
             key={country.ID}
-            country={country.Country}
-            TotalConfirmed={country.TotalConfirmed}
+            country={country}
           />
         ))}
       </div>
