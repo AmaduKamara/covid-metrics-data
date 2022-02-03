@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <div>
-      <div className="h-56 flex items-center justify-center hero sticky top-0">
+      <div className="h-40 md:h-56 flex items-center justify-center hero sticky top-0">
         <div className="w-2/3 md:w-3/4">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl text-white">
             COVOID-19 Metrics
