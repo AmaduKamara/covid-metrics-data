@@ -15,9 +15,13 @@ const Country = ({ country, TotalConfirmed }) => {
         />
       </div>
       <div className="flex flex-col justify-end items-end md:mt-16">
-        <h1 className="text-xs sm:text-lg md:text-xl lg:text-2xln font-semibold uppercase text-white">
+        <button
+          type="button"
+          onClick={() => navigate('/details', { state: country })}
+          className="text-xs sm:text-lg md:text-xl lg:text-2xln font-semibold uppercase text-white focus:outline-none"
+        >
           {country}
-        </h1>
+        </button>
         <p className="text-white text-xs sm:text-sm md:text-lg mt-1">
           {TotalConfirmed}
         </p>
