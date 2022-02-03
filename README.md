@@ -56,7 +56,7 @@ Feel free to check the <a href="#">issues page</a>
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Please give this project a ⭐️ if you like it! Thank you 👍
 
 ## Acknowledgments
 
