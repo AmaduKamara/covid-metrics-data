@@ -3,9 +3,13 @@
 In this project, I built a React Redux Covid Metrics data application that shows infected cases of COVID-19 world wide.
 The get the data from a free <a href="https://covid19api.com/">Covid-19 API</a>
 
-#### App Screenshot
+### Mobile Screenshot
 
-![image](https://user-images.githubusercontent.com/50941074/152219768-bc74ace0-cc9b-4d39-8377-8a49c3b937af.png)
+![image](https://user-images.githubusercontent.com/50941074/152392535-1bb4b4d1-48f8-438b-9e40-f928f5020b7f.png)
+
+#### Desktop Screenshot
+
+![image](https://user-images.githubusercontent.com/50941074/152392910-a7836891-36a7-46ed-ba56-e862b5a21aa8.png)
 
 ## Built With
 
