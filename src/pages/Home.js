@@ -36,7 +36,7 @@ const Home = () => {
           <input
             type="text"
             placeholder="Search by country name"
-            className="py-3 px-5 mt-3 focus:outline-pink-500 rounded-full w-2/4 md:3/4 lg:w-2/5"
+            className="py-3 px-5 mt-3 focus:outline-pink-500 rounded-full w-full md:3/4 lg:w-2/5"
             value={searchText}
             onChange={searchFilter}
           />
