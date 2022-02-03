@@ -12,7 +12,7 @@ const Details = () => {
       <div className="py-5 hero text-white">
         <h1 className="text-xl md:text-2xl lg:text-3xl">{country.Country}</h1>
       </div>
-      <div className="mt-16">
+      <div className="mt-16 mb-32 main-bg p-10">
         <p>{country.TotalDeaths}</p>
       </div>
     </div>

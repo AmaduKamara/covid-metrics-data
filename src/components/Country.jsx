@@ -19,7 +19,7 @@ const Country = (props) => {
       <div className="flex flex-col justify-end items-end md:mt-16">
         <button
           type="button"
-          onClick={() => navigate('/details')}
+          onClick={() => navigate(`/details/${Country}`)}
           className="text-xs sm:text-lg md:text-xl lg:text-2xln font-semibold uppercase text-white focus:outline-none"
         >
           {Country}
