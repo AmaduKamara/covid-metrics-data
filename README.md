@@ -24,6 +24,10 @@ The get the data from a free <a href="https://covid19api.com/">Covid-19 API</a>
 
 <a href="https://world-covid-metrics.netlify.app/">COVID-19 Metrics Data</a>
 
+## Live Demo Video
+
+<a href="">COVID-19 Metrics Data - Video Demo</a>
+
 ## Getting Started
 
 To get the code of this app and run it on you computer, please go through the following steps
