@@ -42,7 +42,7 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
+      <div className="container mx-auto mt-16 mb-32 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
         {filtered.map((country) => (
           <Country
             key={country.ID}
