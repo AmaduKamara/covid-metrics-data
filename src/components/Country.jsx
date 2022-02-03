@@ -6,10 +6,7 @@ import { BsArrowRightCircle } from 'react-icons/bs';
 const Country = (props) => {
   const navigate = useNavigate();
   const {
-    country: {
-      Country,
-      TotalConfirmed,
-    },
+    country: { Country, TotalConfirmed },
   } = props;
   return (
     <div className="border border-pink-400 py-5 country pr-8">
@@ -36,8 +33,10 @@ const Country = (props) => {
 };
 
 Country.propTypes = {
-  country: PropTypes.string.isRequired,
-  TotalConfirmed: PropTypes.number.isRequired,
+  country: PropTypes.shape({
+    TotalConfirmed: PropTypes.number,
+    Country: PropTypes.string,
+  }).isRequired,
 };
 
 export default Country;
