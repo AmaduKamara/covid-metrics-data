@@ -9,14 +9,14 @@ const Country = (props) => {
     country: { Country, TotalConfirmed },
   } = props;
   return (
-    <div className="border border-pink-400 py-5 country pr-8">
+    <div className="border border-pink-400 py-5 country px-8">
       <div className="flex justify-end items-end">
         <BsArrowRightCircle
           onClick={() => navigate(`/details/${Country}`)}
           className="text-white text-2xl cursor-pointer"
         />
       </div>
-      <div className="flex flex-col justify-end items-end md:mt-16">
+      <div className="flex flex-col justify-end items-end mt-8 md:mt-16">
         <button
           type="button"
           onClick={() => navigate(`/details/${Country}`)}
