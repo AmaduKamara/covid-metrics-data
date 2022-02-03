@@ -1,6 +1,6 @@
 # COVID-19 Metrics Data
 
-In this project, I built a React Redux Covid Metrics data application that shows infected cases of COVID-19 world wide.
+In this project, I built a React Redux COVID-19 Metrics data application that shows infected cases of COVID-19 world wide.
 The get the data from a free <a href="https://covid19api.com/">Covid-19 API</a>
 
 ### Mobile Screenshot
