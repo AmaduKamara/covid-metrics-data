@@ -20,7 +20,7 @@ const Country = (props) => {
         <button
           type="button"
           onClick={() => navigate(`/details/${Country}`)}
-          className="text-xs sm:text-lg md:text-xl lg:text-2xln font-semibold uppercase text-white focus:outline-none"
+          className="text-lg sm:text-xl md:text-xl lg:text-2xl font-semibold uppercase text-white focus:outline-none"
         >
           {Country}
         </button>
