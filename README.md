@@ -25,6 +25,8 @@ I got the data from a free <a href="https://covid19api.com/">Covid-19 API</a> on
 
 - Framer Motion
 
+- ReactIcons
+
 ## Live Demo
 
 <a href="https://world-covid-metrics.netlify.app/">COVID-19 Metrics Data</a>
