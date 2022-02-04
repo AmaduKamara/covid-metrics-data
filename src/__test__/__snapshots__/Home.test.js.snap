@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home tests should render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="h-40 md:h-56 flex items-center justify-center hero sticky top-0 z-10"
+        >
+          <div
+            class="w-2/3 md:w-3/4"
+          >
+            <h1
+              class="text-xl sm:text-2xl md:text-3xl lg:text-5xl text-white"
+            >
+              COVOID-19 Metrics
+            </h1>
+            <p
+              class="text-xs sm:text-lg font-thin text-white"
+            >
+              Get to know the latest updates on current COVID-19 metrics around the world
+            </p>
+            <input
+              class="py-3 px-5 mt-3 focus:outline-pink-500 rounded-full w-full md:3/4 lg:w-2/5"
+              placeholder="Search by country name"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="container mx-auto md:mt-16 md:mb-32 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="h-40 md:h-56 flex items-center justify-center hero sticky top-0 z-10"
+      >
+        <div
+          class="w-2/3 md:w-3/4"
+        >
+          <h1
+            class="text-xl sm:text-2xl md:text-3xl lg:text-5xl text-white"
+          >
+            COVOID-19 Metrics
+          </h1>
+          <p
+            class="text-xs sm:text-lg font-thin text-white"
+          >
+            Get to know the latest updates on current COVID-19 metrics around the world
+          </p>
+          <input
+            class="py-3 px-5 mt-3 focus:outline-pink-500 rounded-full w-full md:3/4 lg:w-2/5"
+            placeholder="Search by country name"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="container mx-auto md:mt-16 md:mb-32 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
