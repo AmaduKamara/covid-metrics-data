@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+
 import { fetchCovid } from '../store/covid/covid';
 import Country from '../components/Country';
 
@@ -24,7 +25,7 @@ const Home = () => {
 
   return (
     <div>
-      <div className="h-40 md:h-56 flex items-center justify-center hero sticky top-0">
+      <div className="h-40 md:h-56 flex items-center justify-center hero sticky top-0 z-10">
         <div className="w-2/3 md:w-3/4">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl text-white">
             COVOID-19 Metrics
@@ -44,10 +45,7 @@ const Home = () => {
       </div>
       <div className="container mx-auto md:mt-16 md:mb-32 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
         {filtered.map((country) => (
-          <Country
-            key={country.ID}
-            country={country}
-          />
+          <Country key={country.ID} country={country} />
         ))}
       </div>
     </div>
