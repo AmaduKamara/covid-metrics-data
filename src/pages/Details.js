@@ -1,6 +1,9 @@
 import { useParams, Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
+import { motion } from 'framer-motion';
 import { BiArrowBack } from 'react-icons/bi';
+import { BsFillMicFill } from 'react-icons/bs';
+import { IoMdSettings } from 'react-icons/io';
 
 import { fetchCovid } from '../store/covid/covid';
 
@@ -25,7 +28,7 @@ const Details = () => {
       {country && (
         <>
           <div className="py-5 hero text-white">
-            <div className="container mx-auto flex items-center justify-between px-10">
+            <div className="container mx-auto flex items-center justify-between px-5">
               <Link to="/">
                 <BiArrowBack className="text-4xl" />
               </Link>
@@ -34,9 +37,18 @@ const Details = () => {
                   {country.Country}
                 </h1>
               </div>
+              <div className="flex items-center">
+                <BsFillMicFill className="mx-2 text-lg" />
+                <IoMdSettings className="ml-2 text-xl" />
+              </div>
             </div>
           </div>
-          <div className="mt-16 mb-32 main-bg container mx-auto px-10">
+          <motion.div
+            initial={{ x: '-100vw' }}
+            animate={{ x: -10 }}
+            transition={{ delay: 0.2, duration: 0.8 }}
+            className="mt-16 mb-32 main-bg container mx-auto px-10"
+          >
             <div className="flex justify-between items-center text-white border border-pink-400 p-8">
               <h3 className="text-lg md:text-2xl font-semibold">
                 New Comfirmed
@@ -81,7 +93,7 @@ const Details = () => {
                 {country.TotalRecovered}
               </p>
             </div>
-          </div>
+          </motion.div>
         </>
       )}
     </div>
