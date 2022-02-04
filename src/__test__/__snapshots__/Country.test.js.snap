@@ -7,6 +7,7 @@ Object {
     <div>
       <div
         class="border border-pink-400 py-5 country px-8"
+        style="transform: none;"
       >
         <div
           class="flex justify-end items-end"
@@ -48,6 +49,7 @@ Object {
   "container": <div>
     <div
       class="border border-pink-400 py-5 country px-8"
+      style="transform: none;"
     >
       <div
         class="flex justify-end items-end"
