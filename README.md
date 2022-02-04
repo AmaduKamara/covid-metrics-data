@@ -14,11 +14,16 @@ I got the data from a free <a href="https://covid19api.com/">Covid-19 API</a> on
 ## Built With
 
 - React
+
 - Redux
 
 - ESLint
-- Tailwind CSS
+
 - Jest
+
+- Tailwind CSS
+
+- Framer Motion
 
 ## Live Demo
 
