@@ -15,7 +15,7 @@ const Country = (props) => {
       initial={{ x: '-100vw' }}
       animate={{ x: -10 }}
       transition={{ delay: 0.2, duration: 0.8 }}
-      whileHover={{ scale: 1.2, zIndex: 1 }}
+      whileHover={{ scale: 1.1, zIndex: 1 }}
       className="border border-pink-400 py-5 country px-8"
     >
       <div className="flex justify-end items-end">
