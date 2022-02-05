@@ -14,7 +14,7 @@ const Country = (props) => {
     <motion.div
       initial={{ x: '-100vw' }}
       animate={{ x: -10 }}
-      transition={{ delay: 0.2, duration: 0.8 }}
+      transition={{ delay: 0.1, duration: 0.3 }}
       whileHover={{ scale: 1.1, zIndex: 1 }}
       className="border border-pink-400 py-5 country px-8"
     >
